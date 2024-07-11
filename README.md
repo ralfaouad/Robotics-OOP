@@ -96,4 +96,12 @@ Research and implement a method in the `Robot` class called `self_diagnose()`. T
 - **Abstract Base Classes (ABCs)**: Ensure all robot types implement specific diagnostic checks.
 
 Document your research process and explain the advanced OOP concepts you used in your implementation.
+
+#### MaintenanceRobot (`maintenance_robot.py`)
+
+- Inherit from both `CleaningRobot` and `CookingRobot`.
+- Implement `multi_task()`: The robot should perform a cleaning task followed by a cooking task.
+- Ensure that the `multi_task()` method handles the MRO correctly and avoids any potential issues with attribute or method conflicts.
+
+Document your findings on MRO and how it impacts your implementation in the `README.md` file.
 Good luck, and have fun creating your virtual robot simulator!
